@@ -1,17 +1,24 @@
 {
   "name": "vplugin-pagination",
-  "description": "A Vue.js project",
-  "version": "1.0.0",
-  "author": "kangyl <kangyl@100bm.cn>",
+  "description": "分页控件",
+  "version": "1.0.16",
+  "author": "kangyuin<742588827@qq.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
+  "main": "dist/pagination.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "element-ui": "^2.4.9",
     "vue": "^2.5.11"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangyulin/vplugin-pagination"
+  },
+  "homepage": "https://github.com/kangyulin/vplugin-pagination",
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -29,5 +36,12 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
-  }
+  },
+  "keywords": [
+    "vue",
+    "page",
+    "pager",
+    "pagination",
+    "plugin"
+  ]
 }
