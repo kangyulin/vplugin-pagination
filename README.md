@@ -2,7 +2,7 @@
 
 ### 安装插件
 ``` bash
-npm i vplugin-pagination
+npm i pagination-vplugin
 ```
 
 ### 依赖
@@ -20,7 +20,7 @@ import Vue from 'vue'
 import App from './App'
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import Pagination from 'vplugin-pagination'
+import Pagination from 'pagination-vplugin'
 
 Vue.use(Element)
 Vue.use(Pagination)
